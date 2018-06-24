@@ -56,6 +56,38 @@ git pull --allow-unrelated-histories
   3. name
 2. QQ 
 
+##多级有序列表
+
+问题1：如何打断：空行不行，需要中间插入段落
+
+1. name  
+  1. name
+  2. name
+  3. name
+2. QQ 
+
+fefger
+
+3. ww
+
+4. gg
+
+问题1：如何续上：段落前加4个空格
+
+1. name  
+  1. name
+  2. name
+  3. name
+2. QQ 
+
+    fefger
+
+3. ww
+
+4. gg
+
+
+
 
 
 ##链接  
@@ -79,14 +111,19 @@ git pull --allow-unrelated-histories
     ![alt](url text)
 - 外部图片 demo
 ![baidu](https://www.baidu.com/img/bd_logo1.png "百度网站")
-- 仓库内的图片 demo
+- 仓库内的图片 demo  
 ![](images/img.png)
 
 图片的引用式链接：
+[![](https://www.baidu.com/img/bd_logo1.png "百度网站")](http://www.baidu.com)
+[![][baidu_logo]][baidu]  
+
+要把图片复制放到网址地址下
 
 - 外部图片 demo
 ![baidu][baidu_logo]
-- 仓库内的图片 demo
+
+- 仓库内的图片 demo  
 ![][img_png]
 
 ##引用  
@@ -133,6 +170,53 @@ console.log(a);
     <hr> Horizontal Rule
     
 ___
+
+## HTML 代码 demo
+
+<p align="center">Hello World!</p>
+
+<!---  这些文字会被忽略  
+这些文字会被忽略  
+ -->
+
+<p align="center">
+<img src="https://www.baidu.com/img/bd_logo1.png"/>
+</p>
+
+## 表格 demo
+
+
+| 这  |  是   | 表头  |
+| ----  | :----  : |  -----  :|
+| wrgrgthjty  |  fsdferwgw   |  342653yhgr  |
+| 1  |  2   |  3 |
+
+精简表格
+
+ 这  |  是   | 表头  
+ ----  | :----  : |  -----  :
+ wrgrgthjty  |  fsdferwgw   |  342653yhgr  
+ 1  |  2   |  ![][baidu_logo]  
+ image  |  log   |  [百度] 
+
+## GFM demo
+
+Github Flvored Markdown, GFM
+
+task list
+
+- [x] task 1
+- [ ] task 2
+- [x] task 3
+
+
+emoji 表情符号
+
+:snake:
+
+:smile:
+
+
 
 
 <!---  下面是本文档中用到的链接 -->
