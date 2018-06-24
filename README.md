@@ -22,3 +22,9 @@ git pull --allow-unrelated-histories
 4.git log --oneline
 查看提交列表
 
+git pull --allow-unrelated-histories
+
+
+userrname:lingyixyw
+code:xyw
+
